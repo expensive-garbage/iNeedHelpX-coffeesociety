@@ -45,3 +45,4 @@ app.*.map.json
 
 # project related
 /lib/config/
+/lib/config/config.dart
