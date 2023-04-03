@@ -30,10 +30,11 @@ class _AccountPageState extends State<AccountPage> {
                   SizedBox(
                     height: 10,
                   ),
+                  //settings text here
                   Text(
                     "Settings",
                     style: GoogleFonts.courgette(
-                      fontSize: 30,
+                      fontSize: 26,
                       fontWeight: FontWeight.w700,
                       color: Color.fromARGB(255, 93, 92, 103),
                     ),
@@ -42,6 +43,7 @@ class _AccountPageState extends State<AccountPage> {
                     height: 10,
                   ),
                   //settings card list
+                  //this one here is for the user to add/edit their credit card details
                   SettingCard(
                       titleText: "Credit card",
                       subText: "add/view your credit card info",
@@ -51,7 +53,7 @@ class _AccountPageState extends State<AccountPage> {
                         color: Colors.black,
                       ),
                       onTap: () {
-                        //get
+                        //get to the creditcard page
                         Get.snackbar(
                           "test",
                           "this is a test",
@@ -81,10 +83,6 @@ class _AccountPageState extends State<AccountPage> {
                       onTap: () {
                         stripePaymentsController.getPaymentHistory();
                       }),
-                  //end of settings card list
-                  SizedBox(
-                    height: 20,
-                  ),
                   SettingCard(
                       titleText: "luanch QR code",
                       subText: "Developer's website",
@@ -97,6 +95,7 @@ class _AccountPageState extends State<AccountPage> {
                         //qr code for my site
                         bottomSheet(context);
                       }),
+//end of settings card list
 
                   SizedBox(
                     height: 20,
@@ -130,8 +129,9 @@ class _AccountPageState extends State<AccountPage> {
                       onTap: () {
                         loginController.signOut();
                       }),
+                  //space between logout button and text link
                   SizedBox(
-                    height: 100,
+                    height: 20,
                   ),
                   InkWell(
                     highlightColor: Color.fromARGB(255, 28, 251, 207),
