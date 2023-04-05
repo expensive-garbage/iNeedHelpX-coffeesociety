@@ -23,7 +23,7 @@ class CoffeeCupPage extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                CupListing(),
+                // CupListing(),
                 //nearby shops
                 CoffeeShopList()
               ],
