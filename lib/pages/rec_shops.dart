@@ -2,7 +2,6 @@ import 'package:coffeesociety/globalvars.dart';
 import 'package:coffeesociety/pages/widgets/cup_listing.dart';
 import 'package:coffeesociety/pages/widgets/neurobox.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class PandaPage extends StatelessWidget {
   const PandaPage({super.key});
