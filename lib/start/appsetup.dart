@@ -22,7 +22,7 @@ class AppSetupState extends State<AppSetup> {
   final _pageOptions = [
 //pages
     // PandaPage(),
-    CoffeeCupPage(),
+    CoffeeShopPage(),
     RecommendedPage(),
     AccountPage(),
   ];

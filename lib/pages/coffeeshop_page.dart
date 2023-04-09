@@ -1,10 +1,9 @@
-import 'package:coffeesociety/pages/widgets/cup_listing.dart';
 import 'package:coffeesociety/pages/widgets/listings_widget.dart';
 import 'package:coffeesociety/pages/widgets/neurobox.dart';
 import 'package:flutter/material.dart';
 
-class CoffeeCupPage extends StatelessWidget {
-  const CoffeeCupPage({super.key});
+class CoffeeShopPage extends StatelessWidget {
+  const CoffeeShopPage({super.key});
 
   @override
   Widget build(BuildContext context) {
