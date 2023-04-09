@@ -3,8 +3,8 @@ import 'package:coffeesociety/pages/widgets/cup_listing.dart';
 import 'package:coffeesociety/pages/widgets/neurobox.dart';
 import 'package:flutter/material.dart';
 
-class PandaPage extends StatelessWidget {
-  const PandaPage({super.key});
+class RecommendedPage extends StatelessWidget {
+  const RecommendedPage({super.key});
 
   @override
   Widget build(BuildContext context) {
