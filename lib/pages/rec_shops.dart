@@ -14,6 +14,7 @@ class RecommendedPage extends StatelessWidget {
           children: [
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 //add things here!
                 NeuromorphicBox(
@@ -21,6 +22,9 @@ class RecommendedPage extends StatelessWidget {
                     subtext:
                         "${auth.currentUser!.displayName}, check out local shops and artist goodies in your area!"),
                 //cup listings
+                SizedBox(
+                  height: 10,
+                ),
                 CupListing(),
               ],
             ),
