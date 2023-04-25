@@ -8,10 +8,14 @@ class Configurations {
   static const _rapydSecret =
       "7f14bbfd8595c0f735f14a38446451227c2b69676d9cabf90f6532c536b5a5ace7a9715111afc323";
   static const _rapydAccess = "79B53038AA5F0E6789F8";
+  static const _squareAccessToken =
+      "EAAAEMgJFNjHfIGRx0nHEu7jNdpCf01CEO5FgSfWyiDKSGG9lBvyiMcMXaHAIJHf";
 
   //for stripe payments live keys
   static const _stripePublishableKey =
       "pk_live_PTyXJkdSTgqmeYsOR6HO1PZM00bTjgWf5o";
+
+  //change this later
   static const _stripeFuncUrl =
       "https://us-east1-getxshop-dce91.cloudfunctions.net/stripePaymentIntentRequest";
 
@@ -29,4 +33,5 @@ class Configurations {
 
   String get rapydSecret => _rapydSecret;
   String get rapydAccess => _rapydAccess;
+  String get squareAccessToken => _squareAccessToken;
 }

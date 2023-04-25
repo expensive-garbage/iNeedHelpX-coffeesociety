@@ -44,5 +44,5 @@ app.*.map.json
 /android/app/release
 
 # project related
-/lib/config/
+/lib/config/**
 /lib/config/config.dart
