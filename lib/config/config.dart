@@ -10,6 +10,7 @@ class Configurations {
   static const _rapydAccess = "79B53038AA5F0E6789F8";
   static const _squareAccessToken =
       "EAAAEMgJFNjHfIGRx0nHEu7jNdpCf01CEO5FgSfWyiDKSGG9lBvyiMcMXaHAIJHf";
+  static const _squareApplicationID = "sandbox-sq0idb-6XjGuCN0eZ4szpS4fllhIw";
 
   //for stripe payments live keys
   static const _stripePublishableKey =
@@ -34,4 +35,5 @@ class Configurations {
   String get rapydSecret => _rapydSecret;
   String get rapydAccess => _rapydAccess;
   String get squareAccessToken => _squareAccessToken;
+  String get squareApplicationID => _squareApplicationID;
 }
