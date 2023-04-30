@@ -31,3 +31,10 @@ var rapydClient = RapydClient(rapydConfig.rapydAccess, rapydConfig.rapydSecret);
 
 //allows for logging to the console
 Logger logger = Logger();
+
+//constants for the custom dialog
+class Constants {
+  Constants._();
+  static const double padding = 20;
+  static const double avatarRadius = 45;
+}
