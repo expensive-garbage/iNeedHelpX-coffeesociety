@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class CustomDialogBox extends StatefulWidget {
+class DeleteAccountBox extends StatefulWidget {
   final String title, descriptions, text;
   final Image img;
 
-  const CustomDialogBox(
+  const DeleteAccountBox(
       {Key? key,
       required this.title,
       required this.descriptions,
@@ -13,10 +13,10 @@ class CustomDialogBox extends StatefulWidget {
       : super(key: key);
 
   @override
-  _CustomDialogBoxState createState() => _CustomDialogBoxState();
+  _DeleteAccountBoxState createState() => _DeleteAccountBoxState();
 }
 
-class _CustomDialogBoxState extends State<CustomDialogBox> {
+class _DeleteAccountBoxState extends State<DeleteAccountBox> {
   @override
   Widget build(BuildContext context) {
     return Dialog(
