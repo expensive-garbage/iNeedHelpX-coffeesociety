@@ -118,4 +118,12 @@ class LoginController extends GetxController {
       // "reviews": usr.reviews
     });
   }
+
+//remove user from firebaseFirestore
+  _removeUserFromFB() {
+    firebaseFirestore
+        .collection(usersCollection)
+        .doc(fbUser.value!.uid)
+        .delete();
+  }
 }
