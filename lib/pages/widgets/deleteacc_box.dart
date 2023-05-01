@@ -1,3 +1,4 @@
+import 'package:coffeesociety/colors/colours_list.dart';
 import 'package:coffeesociety/globalvars.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gradients_reborn/flutter_gradients_reborn.dart';
@@ -58,7 +59,7 @@ class _DeleteAccDialogBoxState extends State<DeleteAccDialogBox> {
                 widget.title,
                 style: GoogleFonts.sniglet(
                   color: Color.fromARGB(255, 132, 106, 250),
-                  fontSize: 28,
+                  fontSize: 32,
                   fontWeight: FontWeight.w600,
                 ),
               ),
@@ -68,7 +69,9 @@ class _DeleteAccDialogBoxState extends State<DeleteAccDialogBox> {
               Text(
                 widget.descriptions,
                 style: TextStyle(
-                    fontSize: 14, color: Color.fromARGB(255, 224, 248, 251)),
+                  fontSize: 14,
+                  color: lightgoldbg,
+                ),
                 textAlign: TextAlign.center,
               ),
               SizedBox(

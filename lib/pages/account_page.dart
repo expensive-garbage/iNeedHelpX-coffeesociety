@@ -102,17 +102,17 @@ class _AccountPageState extends State<AccountPage> {
                   SizedBox(
                     height: 20,
                   ),
-                  SettingCard(
-                      titleText: "Delete Account",
-                      subText: "delete your account",
-                      icon: Icon(
-                        Icons.delete_forever,
-                        size: 40,
-                        color: Colors.black,
-                      ),
+                  //delete account button
+                  CustomButton(
+                      text: "Delete Account",
+                      bgColor: Colors.black,
                       onTap: () {
+                        //delete account
                         buildShowDialog(context);
                       }),
+                  SizedBox(
+                    height: 10,
+                  ),
                   //link to NextDoor
                   InkWell(
                     highlightColor:
@@ -136,6 +136,7 @@ class _AccountPageState extends State<AccountPage> {
                   SizedBox(
                     height: 40,
                   ),
+
                   CustomButton(
                       text: "Logout",
                       bgColor: prettyPurple,
