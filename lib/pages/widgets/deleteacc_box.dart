@@ -3,23 +3,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gradients_reborn/flutter_gradients_reborn.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class CustomDialogBox extends StatefulWidget {
+class DeleteAccDialogBox extends StatefulWidget {
   final String title, descriptions, text;
-  final Image img;
+  // final Image? img;
 
-  const CustomDialogBox(
-      {Key? key,
-      required this.title,
-      required this.descriptions,
-      required this.text,
-      required this.img})
-      : super(key: key);
+  const DeleteAccDialogBox({
+    Key? key,
+    required this.title,
+    required this.descriptions,
+    required this.text,
+  }) : super(key: key);
 
   @override
-  _CustomDialogBoxState createState() => _CustomDialogBoxState();
+  _DeleteAccDialogBoxState createState() => _DeleteAccDialogBoxState();
 }
 
-class _CustomDialogBoxState extends State<CustomDialogBox> {
+class _DeleteAccDialogBoxState extends State<DeleteAccDialogBox> {
   @override
   Widget build(BuildContext context) {
     return Dialog(
@@ -44,7 +43,8 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
           margin: EdgeInsets.only(top: Constants.avatarRadius),
           decoration: BoxDecoration(
               shape: BoxShape.rectangle,
-              gradient: FlutterGradients.premiumDark(),
+              //dark gradient
+              gradient: FlutterGradients.premiumDark(tileMode: TileMode.clamp),
               borderRadius: BorderRadius.circular(Constants.padding),
               boxShadow: [
                 BoxShadow(
@@ -77,6 +77,7 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
                 alignment: Alignment.bottomRight,
                 child: TextButton(
                   onPressed: () {
+                    //what happens when the user presses the delete button
                     Navigator.of(context).pop();
                   },
                   child: Text(

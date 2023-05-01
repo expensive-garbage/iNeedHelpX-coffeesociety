@@ -2,7 +2,9 @@ import 'package:coffeesociety/api/url_request.dart';
 import 'package:coffeesociety/colors/colours_list.dart';
 import 'package:coffeesociety/globalvars.dart';
 import 'package:coffeesociety/pages/review_history.dart';
+import 'package:coffeesociety/pages/widgets/buildshowdialog.dart';
 import 'package:coffeesociety/pages/widgets/custom_button.dart';
+import 'package:coffeesociety/pages/widgets/deleteacc_box.dart';
 import 'package:coffeesociety/pages/widgets/settings_card.dart';
 import 'package:coffeesociety/start/bottomsheet.dart';
 import 'package:flutter/material.dart';
@@ -100,6 +102,17 @@ class _AccountPageState extends State<AccountPage> {
                   SizedBox(
                     height: 20,
                   ),
+                  SettingCard(
+                      titleText: "Delete Account",
+                      subText: "delete your account",
+                      icon: Icon(
+                        Icons.delete_forever,
+                        size: 40,
+                        color: Colors.black,
+                      ),
+                      onTap: () {
+                        buildShowDialog(context);
+                      }),
                   //link to NextDoor
                   InkWell(
                     highlightColor:
