@@ -56,10 +56,10 @@ class _DeleteAccDialogBoxState extends State<DeleteAccDialogBox> {
             children: <Widget>[
               Text(
                 widget.title,
-                style: TextStyle(
+                style: GoogleFonts.sniglet(
+                  color: Color.fromARGB(255, 132, 106, 250),
                   fontSize: 28,
-                  fontWeight: FontWeight.w800,
-                  color: Color.fromARGB(255, 169, 129, 251),
+                  fontWeight: FontWeight.w600,
                 ),
               ),
               SizedBox(
