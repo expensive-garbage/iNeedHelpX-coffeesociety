@@ -1,17 +1,18 @@
 import 'package:coffeesociety/globalvars.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gradients_reborn/flutter_gradients_reborn.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DeleteAccDialogBox extends StatefulWidget {
-  final String title, descriptions, text;
+  final String title, descriptions, tapText;
   // final Image? img;
 
   const DeleteAccDialogBox({
     Key? key,
     required this.title,
     required this.descriptions,
-    required this.text,
+    required this.tapText,
   }) : super(key: key);
 
   @override
@@ -56,9 +57,9 @@ class _DeleteAccDialogBoxState extends State<DeleteAccDialogBox> {
               Text(
                 widget.title,
                 style: TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.w600,
-                  color: Color.fromARGB(255, 158, 121, 245),
+                  fontSize: 28,
+                  fontWeight: FontWeight.w800,
+                  color: Color.fromARGB(255, 169, 129, 251),
                 ),
               ),
               SizedBox(
@@ -78,14 +79,15 @@ class _DeleteAccDialogBoxState extends State<DeleteAccDialogBox> {
                 child: TextButton(
                   onPressed: () {
                     //what happens when the user presses the delete button
-                    Navigator.of(context).pop();
+                    Get.back();
+                    //Navigator.of(context).pop();
                   },
                   child: Text(
-                    widget.text,
+                    widget.tapText,
                     style: GoogleFonts.sniglet(
-                        fontSize: 25,
-                        color: Color.fromARGB(255, 255, 19, 2),
-                        fontWeight: FontWeight.w800),
+                        fontSize: 22,
+                        color: Color.fromARGB(255, 255, 7, 193),
+                        fontWeight: FontWeight.w500),
                   ),
                 ),
               ),

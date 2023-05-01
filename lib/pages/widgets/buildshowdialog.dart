@@ -7,8 +7,9 @@ Future buildShowDialog(BuildContext context) {
     builder: (BuildContext context) {
       return DeleteAccDialogBox(
           title: "Delete Account?",
-          descriptions: "This action deletes your account and all its data",
-          text: "Delete");
+          descriptions:
+              "This action deletes your account and all it's data including reviews, payments and any connections.",
+          tapText: "Delete");
     },
   );
 }
