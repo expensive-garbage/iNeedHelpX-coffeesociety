@@ -16,10 +16,9 @@ class SplashScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
-              height: 300,
-              width: 300,
-              child: Lottie.network(
-                  "https://assets3.lottiefiles.com/packages/lf20_AgXxWeQwaK.json"),
+              height: 360,
+              width: 360,
+              child: Lottie.asset('assets/19702-frappe-coffee.json'),
             )
           ],
         ),

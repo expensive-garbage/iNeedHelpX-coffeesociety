@@ -86,6 +86,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/44298-coffee-love.json
+    - assets/19702-frappe-coffee.json
     - assets/icons/coffee.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
