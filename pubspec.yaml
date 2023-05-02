@@ -85,8 +85,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/icons/
-    - assets/44298-coffee-love.json
-    - assets/98273-paper-plane.json
+    - assets/pink-coffee.json
     - assets/icons/coffee.png
 
   # An image asset can refer to one or more resolution-specific "variants", see

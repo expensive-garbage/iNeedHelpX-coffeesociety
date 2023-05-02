@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Lottie.asset(
-              'assets/44298-coffee-love.json',
+              'assets/pink-coffee.json',
               animate: true,
             ),
             // SizedBox(
