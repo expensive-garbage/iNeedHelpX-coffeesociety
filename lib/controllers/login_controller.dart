@@ -120,7 +120,7 @@ class LoginController extends GetxController {
   }
 
 //remove user from firebaseFirestore
-  _removeUserFromFB() {
+  _removeUserFromFB(UserModel usr, User firebaseUser) {
     firebaseFirestore
         .collection(usersCollection)
         .doc(fbUser.value!.uid)
