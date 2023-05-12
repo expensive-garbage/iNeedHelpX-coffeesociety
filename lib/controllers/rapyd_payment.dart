@@ -102,6 +102,19 @@ class RapydPayments extends GetxController {
     );
   }
 
+//view country code
+  void viewCountryCodes() async {
+    final rapydClient =
+        RapydClient(Configurations().rapydAccess, Configurations().rapydSecret);
+    try {
+      final country =
+          await rapydClient.retrieveCheckout(checkoutId: checkoutId);
+      print('Country: ${country.data.name}');
+    } catch (e) {
+      print('ERROR: ${e.toString()}');
+    }
+  }
+
   // void viewCountryCodes() async {
   //   final rapydClient =
   //       RapydClient(Configurations().rapydAccess, Configurations().rapydSecret);
