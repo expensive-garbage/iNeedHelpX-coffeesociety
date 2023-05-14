@@ -7,6 +7,7 @@ class ShopModel {
   static const ADDRESS = "address";
   static const DESCRIPTION = "description";
   static const BASICDEETS = "basicDeets";
+
   static const SEATS = "seats";
   // static const PRICE = "price";
 

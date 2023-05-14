@@ -1,0 +1,8 @@
+{
+  "markdownlint.ignore": [],
+  "editor.formatOnSave": true,
+
+  "workbench.commandPalette.experimental.suggestCommands": true,
+  "dart.showTodos": false,
+  "dart.customDevTools": {}
+}
