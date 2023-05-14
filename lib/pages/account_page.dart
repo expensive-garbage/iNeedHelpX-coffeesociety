@@ -4,7 +4,6 @@ import 'package:coffeesociety/globalvars.dart';
 import 'package:coffeesociety/pages/review_history.dart';
 import 'package:coffeesociety/pages/widgets/buildshowdialog.dart';
 import 'package:coffeesociety/pages/widgets/custom_button.dart';
-import 'package:coffeesociety/pages/widgets/deleteacc_box.dart';
 import 'package:coffeesociety/pages/widgets/settings_card.dart';
 import 'package:coffeesociety/start/bottomsheet.dart';
 import 'package:flutter/material.dart';
