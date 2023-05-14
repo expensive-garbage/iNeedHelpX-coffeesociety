@@ -4,5 +4,6 @@
 
   "workbench.commandPalette.experimental.suggestCommands": true,
   "dart.showTodos": false,
-  "dart.customDevTools": {}
+  "dart.customDevTools": {},
+  "java.configuration.updateBuildConfiguration": "automatic"
 }
