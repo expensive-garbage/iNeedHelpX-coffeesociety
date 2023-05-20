@@ -1,13 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.juliapak.coffeesociety">
-
-<uses-sdk android:minSDKVersion="28" />
- <uses-permission android:name="android.permission.INTERNET" />
-
-   <application
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
         android:label="coffeesociety"
         android:name="${applicationName}"
-        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -25,11 +19,6 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
-              <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyA5R5oz4NfjYY3OGbkdzJ2fhdfQ1A0Cdjw"
-               />
-               <meta-data android:name="com.google.ar.core" android:value="required" />
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

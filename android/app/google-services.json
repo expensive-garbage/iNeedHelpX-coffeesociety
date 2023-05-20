@@ -40,6 +40,42 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864100529634:android:799c13a69da9025671f5bb",
+        "android_client_info": {
+          "package_name": "com.juliapak.coffeetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864100529634-o3sp7g87blvliaind1raaj40itll2hs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLGsf2RD5Ue5RCAbYB3U8iPDY9_5psexw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864100529634-o3sp7g87blvliaind1raaj40itll2hs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "864100529634-hemrmehtto83m4ogra5gt7mpk9vm56po.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.juliapak.coffeesociety"
+              }
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
