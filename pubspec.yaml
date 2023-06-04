@@ -59,6 +59,7 @@ dependencies:
   flutter_stripe: ^9.0.0+1
   timeago: ^3.3.0
   webview_flutter_plus: ^0.3.0+2
+  square_in_app_payments: ^1.7.6
 
 dev_dependencies:
   flutter_test:
